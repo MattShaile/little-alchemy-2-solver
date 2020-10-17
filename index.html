@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="alchemy.js"></script>
+    <style>
+        body {
+            touch-action: manipulation;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        #fixedContainer div,
+        td {
+            font-size: x-large;
+            border: solid 1px black;
+            text-align: center;
+            user-select: none;
+        }
+
+        tr {
+            height: 40px;
+            transition: all 1s;
+        }
+
+        #header {
+            width: 100%;
+
+            text-align: center;
+            font-size: xx-large;
+
+            padding-top: 50px;
+            padding-bottom: 50px;
+
+            border: solid 1px black;
+        }
+
+        #fixedContainer {
+            position: fixed;
+
+            right: 0;
+            bottom: 0;
+            width: 40%;
+
+            font-size: xx-large;
+        }
+
+        #fixedContainer div {
+            font-size: xx-large;
+
+            padding-top: 150px;
+            padding-bottom: 150px;
+        }
+    </style>
+</head>
+
+<body onload="start()">
+    <div id="header">
+        ⚗️ Daddy's Little Alchemy 2 Guide ⚗️
+    </div>
+    <table id="list">
+
+    </table>
+    <div id="fixedContainer">
+        <div id="stats">
+        </div>
+        <div id="next">
+        </div>
+    </div>
+</body>
+
+</html>
